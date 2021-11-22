@@ -3,7 +3,7 @@ const resultadoDos = document.querySelector('.resultadoDos')
 
 const btnDolares = document.querySelector('#btn')
 btnDolares.onclick = () =>{
-    const inputDolares = document.querySelector('#conversorUno').value
+    let inputDolares = document.querySelector('#conversorUno').value
     let valorDolar = (inputDolares*100.41)
     resultado.textContent=`Su conversion de dolares es $  ${valorDolar} pesos argentinos`
 }
