@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="explaining">
+            <p>¿Como funciona? Simple. Coloca el valor de la moneda que desea hacer la conversion a pesos (a la izquierda) o visceversa (a la derecha)y luego presiona enviar. Se mostrará en pantalla el resultao de tu conversión.</p>
+        </div>
+        <div class="big-container">
+        <div class="container">
+            <h2>Conversor de monedas a pesos</h2>
+            <div class="input-container">
+            <div class="divConversor" id="dolares">
+                <input class="input" type="number" name="pesosUno" id="conversorUno" placeholder="Dolares a pesos"></input>
+                <input type="submit" class="btn" id="btn"></input>
+            </div>
+            <div class="divConversor" id="euros">
+                <input class="input" type="number" name="pesosDos" id="conversorDos" placeholder="Euros a pesos"></input>
+                <input type="submit" class="btn" id="btn-r"></input>
+            </div>
+            <div class="divConversor" id="bitcoins">
+                <input class="input" type="number" name="pesosTres" id="conversorTres" placeholder="Bitcoins a pesos"></input>
+                <input type="submit" class="btn" id="btn-b"></input>
+            </div>
+                <div id="message">Aqui se mostrará tu resultado</div>
+            </div>
+        </div>
+        <div class="container">
+            <h2>Conversor de pesos a monedas</h2>
+            <div class="input-container">
+                <div class="divConversor" id="pesosaDolares">
+                    <input class="input" type="number" name="pesosUno" id="conversorCuatro" placeholder="Pesos a dolares"></input>
+                    <input type="submit" class="btn" id="btn-cuatro"></input>
+                </div>
+            <div class="divConversor" id="pesoEuros">
+                <input class="input" type="number" name="pesosDos" id="conversorCinco" placeholder="Pesos a euros"></input>
+                <input type="submit" class="btn" id="btn-cinco"></input>
+            </div>
+            <div class="divConversor" id="pesoBitcoins">
+                <input class="input" type="number" name="pesosTres" id="conversorSeis" placeholder="Pesos a bitcoins"></input>
+                <input type="submit" class="btn" id="btn-seis"></input>
+            </div>
+                <div id="message" class="resultadoDos">Aqui se mostrará tu resultado</div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/script.js" ></script>
+    </body>
+</html>
